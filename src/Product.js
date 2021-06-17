@@ -1,10 +1,10 @@
 import React from "react";
 import "./Product.css";
-import { Link } from "react-router-dom";
+
 function Product({id, title, price, rating, image}) {
     return (
         <div className="product">
-            <Link to="/description" className="product__link">
+            
                 <div className="product__info">
                     <p>{title}</p>
                     <p className="product__price">
@@ -23,7 +23,6 @@ function Product({id, title, price, rating, image}) {
                         }
                     </div>
                 </div>
-            </Link>
             
            
             <img src={image} alt="" />

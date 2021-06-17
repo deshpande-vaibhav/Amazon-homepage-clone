@@ -12,6 +12,7 @@ function Home() {
 
         {/* Product id, title, rating, price, image */}
             <div className="home__row">
+                <Link to="/book" className="home__product">
                 <Product
                     id= "123455"
                     title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
@@ -20,7 +21,9 @@ function Home() {
                     image= "https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
         
                 />
+                </Link>
                 
+                <Link to="/oximeter" className="home__product">
                  <Product
                     id= "123456"
                     title="MediWeave Fingertip Pulse Oximeter, Digital Monitoring Pulse Meter Rate & SpO2, LED Digital Display with Batteries (6 Months Replaceable Warranty)"
@@ -28,9 +31,11 @@ function Home() {
                     rating= {4}
                     image= "https://images-na.ssl-images-amazon.com/images/I/613vPBiXBAL._SL1500_.jpg"
         
-                />
+                    />
+                </Link>
             </div>
             <div className="home__row">
+                <Link to="/mask" className="home__product">
                 <Product
                     id= "123457"
                     title="Lee Cooper Lightweight Face Mask for Outdoor Protection, Super Breathable & Reusable Cloth – Pack of 3"
@@ -39,6 +44,9 @@ function Home() {
                     image= "https://images-na.ssl-images-amazon.com/images/I/61ia1wOrKWS._SL1500_.jpg"
         
                 />
+                </Link>
+
+                <Link to="/laptop" className="home__product">
                  <Product
                     id= "123458"
                     title="HP Pavilion Gaming 10th Gen Intel Core i5 Processor 16.1 (40.9 cms) FHD Gaming Laptop (8GB/1TB HDD + 256GB SSD/Windows 10/MS Office/NVIDIA GTX 1650 4GB/Shadow Black), 16-a0022TX"
@@ -47,6 +55,9 @@ function Home() {
                     image= "https://images-na.ssl-images-amazon.com/images/I/71FHcGAPevL._SL1498_.jpg"
         
                 />
+                </Link>
+
+                <Link to="/iphone" className="home__product">
                 <Product
                     id= "123459"
                     title="New Apple iPhone 12 Mini (128GB) - White"
@@ -55,8 +66,10 @@ function Home() {
                     image= "https://images-na.ssl-images-amazon.com/images/I/71tT8J5cKuL._SL1500_.jpg"
         
                 />
+                </Link>
             </div>
             <div className="home__row">
+                <Link to="/tv" className="home__product">
                 <Product
                     id= "123460"
                     title="OnePlus 80 cm (32 inches) Y Series HD Ready LED Smart Android TV 32Y1 (Black) (2020 Model)"
@@ -65,6 +78,7 @@ function Home() {
                     image= "https://images-na.ssl-images-amazon.com/images/I/81qtALn%2BGpL._SL1500_.jpg"
         
                 />
+                </Link>
             </div>
         
         </div>
